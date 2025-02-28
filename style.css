@@ -1,0 +1,39 @@
+body {
+    background-color: #0a0e17;
+    color: white;
+    text-align: center;
+}
+
+.text-general {
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.card {
+    transition: transform 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(20, 30, 48, 0.8) !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #adb5bd;
+}
